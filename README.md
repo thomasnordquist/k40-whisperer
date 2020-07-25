@@ -60,6 +60,8 @@ brew install pyenv
 PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.7.2
 pyenv global 3.7.2
 rehash
+
+pip3.7 install PyInstaller
 ```
 
 Then running the build should work. If not, well, there should be a lot of error messages to help you track things down.
